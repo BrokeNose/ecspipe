@@ -1,9 +1,10 @@
 version: 0.2
 
 env:
-  AWS_ECR: 032886669461.dkr.ecr.ap-northeast-2.amazonaws.com/ecspipe-image
-  IMAGE_REPO_NAME: ecspipe-container
-  CONTAINER_NAME: ecspipe-container
+  variables:
+    AWS_ECR: 032886669461.dkr.ecr.ap-northeast-2.amazonaws.com/ecspipe-image
+    IMAGE_REPO_NAME: ecspipe-container
+    CONTAINER_NAME: ecspipe-container
   
 phases:
 
